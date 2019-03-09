@@ -29,6 +29,15 @@ private WebDriver driver;
 	@FindBy(linkText="Course description")
 	private WebElement description;
 	
+	@FindBy(linkText="1Selenium12")
+	private WebElement TestCourse;
+	
+	@FindBy(linkText="SeleniumCourseSatya")
+	private WebElement TestCourseforAssesment;
+	
+	@FindBy(linkText="SeleniumAdv")
+	private WebElement SeleniumAdvforforum;
+	
 	public void clicklink() {
 		
 		this.EditProfile.click();
@@ -48,4 +57,19 @@ private WebDriver driver;
 		
 		this.description.click();
 	}
+     
+     public void coursetest() {
+    	 this.TestCourse.click();
+    	 
+    	 
+     }
+     
+     public void CourseAssesment() {
+    	 this.TestCourseforAssesment.click();
+    	     	 
+     }
+     
+     public void SeleniumAdvForForum() {
+    	 this.SeleniumAdvforforum.click();
+     }
 }
