@@ -39,6 +39,8 @@ private WebDriver driver;
 	public void Reply()
 	{
 		this.ReplyBtn.click();
+		
+		this.driver.switchTo().defaultContent();
 	}
 	
    

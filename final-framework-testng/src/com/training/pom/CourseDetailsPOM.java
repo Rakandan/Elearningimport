@@ -40,6 +40,7 @@ private WebDriver driver;
 	
 	
 	
+	
 	public void ClickTests() {
 		
 		this.CoursetoTest.click();

@@ -24,10 +24,18 @@ private WebDriver driver;
 	@FindBy(linkText="1em")
 	private WebElement Testname;
 	
+	@FindBy(linkText="ONLINE QUIZ")
+	private WebElement OnlineQuiz;
+	
 	
    public void clicktestname() {
 		
 		this.Testname.click();
+	}
+   
+   public void clicktestquiz() {
+		
+		this.OnlineQuiz.click();
 	}
 	
     

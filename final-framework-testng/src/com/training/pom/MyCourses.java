@@ -38,6 +38,9 @@ private WebDriver driver;
 	@FindBy(linkText="SeleniumAdv")
 	private WebElement SeleniumAdvforforum;
 	
+	@FindBy(linkText="SeleniumAdv")
+	private WebElement SeleniumAdv;
+	
 	public void clicklink() {
 		
 		this.EditProfile.click();
@@ -71,5 +74,9 @@ private WebDriver driver;
      
      public void SeleniumAdvForForum() {
     	 this.SeleniumAdvforforum.click();
+     }
+     
+     public void SeleniumAdv() {
+    	 this.SeleniumAdv.click();
      }
 }
